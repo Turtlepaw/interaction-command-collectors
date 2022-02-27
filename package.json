@@ -1,0 +1,33 @@
+{
+    "name": "djs-command-collectors",
+    "version": "1.0.0",
+    "description": "Create interaction command collectors!",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "src"
+    ],
+    "scripts": {
+        "prepublish": "npm run build",
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Turtlepaw/interaction-command-collectors.git"
+    },
+    "author": "Turtlepaw",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Turtlepaw/interaction-command-collectors/issues"
+    },
+    "homepage": "https://github.com/Turtlepaw/interaction-command-collectors#readme",
+    "dependencies": {
+        "discord.js": "^13.6.0"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.5",
+        "nodemon": "^2.0.15",
+        "typescript": "^4.5.5"
+    }
+}
